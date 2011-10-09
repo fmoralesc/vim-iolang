@@ -7,7 +7,7 @@ syn keyword IoObjectMethods clone do method block doFile doMessage doRelativeFil
 syn keyword IoCoreProtos Block CFunction Call Collector Compiler Coroutine Date Debugger Object File Directory DyLib Error Exception List Map Message Number Profiles Sandbox Scheduler System Sequence WeakLink Range NotificationCenter Notification NotificatioListener Thread
 syn match IoPars /[()]/
 
-hi link IoBool Number
+hi link IoBool Boolean
 hi link IoFlow Operator
 hi link IoComparison Operator
 hi link IoAssignment Operator
